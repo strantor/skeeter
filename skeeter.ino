@@ -8,6 +8,7 @@
 // - Arduino PID temperature implementation (was kinda wack, needed help, but "worked"): https://electronoobs.com/eng_arduino_tut24_code2.php#google_vignette
 // - Serial input basics. I think it's an excellent tutorial and serial in Arduino just sucks. I could be wrong; the tutorial could suck. https://forum.arduino.cc/t/serial-input-basics-updated/382007
 // - Abducar's thermistor lookup table code. https://forum.arduino.cc/t/how-to-use-ntc-100k-thermistor-to-measure-high-temperature/472821/13
+// - How to EEPROM https://docs.arduino.cc/learn/programming/eeprom-guide/
 
 // The EEPROM stuff is Earle F. Philhower's simulation of EEPROM which is actually stored on Pico's flash, so try not to write too often to it.
 // Commands which can be typed into the serial monitor:
@@ -88,9 +89,9 @@ void loop()
     if (addr10 != 2){ // first run ever
       set_temperature = 215;
       saveTempSetting();
-      kp = 9.1;
-      ki = 0.3;
-      kd = 1.8;
+      kp = 1.0;
+      ki = 0.2;
+      kd = 1.0;
       savePIDSettings();
       EEPROM.write(10, 2);
       if (EEPROM.commit()) {
