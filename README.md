@@ -7,7 +7,8 @@
 This tool is designed to make the welding together of 3D printed parts go quickly.
 It operates from DeWalt 20V battery power or a 24V power supply; there are two handle variants you can print depending on how you want to power it.
 
-![image](https://github.com/user-attachments/assets/5bf8b520-0633-436e-b935-0309651d7ec7)
+![image](https://github.com/user-attachments/assets/22a16a0c-d3b2-492c-95c3-1e92055b1216)
+
 
 
 BOM:
