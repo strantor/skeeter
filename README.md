@@ -8,6 +8,9 @@ Sex pistol
 This tool is designed to make the welding together of 3D printed parts go quickly.
 It operates from DeWalt 20V battery power or a 24V power supply; there are two handle variants you can print depending on how you want to power it.
 
+![image](https://github.com/user-attachments/assets/5bf8b520-0633-436e-b935-0309651d7ec7)
+
+
 BOM:
 1. printed parts
 2. [DeWalt Battery holder](https://www.amazon.com/gp/product/B0C282C27R/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) (if you want battery powered)
