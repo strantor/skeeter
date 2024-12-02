@@ -1,9 +1,8 @@
 # skeeter
-Plastic welding spoolgun
-Over Engineered hot glue gun
-Under Engineered 3D printer (handheld)
-Sex pistol
-3D pen on steroids
+- Plastic welding spoolgun
+- Over Engineered hot glue gun
+- Under Engineered 3D printer (handheld)
+- 3D pen on steroids
 
 This tool is designed to make the welding together of 3D printed parts go quickly.
 It operates from DeWalt 20V battery power or a 24V power supply; there are two handle variants you can print depending on how you want to power it.
