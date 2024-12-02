@@ -21,7 +21,7 @@ BOM:
 7. [MKS THR42 3d printer toolhead board](https://makerbase3d.com/product/mks-thr36-thr42-board/?srsltid=AfmBOoqB9_kss1FwxlIhkWJhzdaipdb-LNaB0u1sYBQivyn0e_-DFAhm)
 
 Instructions:
-1. print the parts
+1. print the parts. handle1.stl is for non-battery power and handle2 is for DeWalt battery power; you don't need both, just one or the other.
 2. remove the stepper motor from the orbiter extruder
 3. fabricate/machine a motor adapter plate and shaft adapter to mount the Pololu motor in place of the orbiter stepper
 4. tap holes in the 3D printed parts. The 4 holes that hold the top part to the bottom are 8-32 and everything else is M3
