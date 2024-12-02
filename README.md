@@ -25,12 +25,6 @@ Instructions:
 5. assemble everything.
 6. Connect to the gun to PC via USB and flash the skeeter.uf2 file to the THR42 board via [MKS's firmware update instructions](https://github.com/makerbase-mks/MKS-THR36-THR42-UTC?tab=readme-ov-file#thr3642-firmware-update) . Ignore all the stuff about klipper config; this is not klipper firmware, it is a totally separate firmware that I wrote, to control the THR42 board as it's own standalone thing.
 7. With the gun connected, to PC, connect to it using a terminal app like Putty or Arduino serial monitor. Send it a temperature (C) setpoint command like "S220" (without quotes) to set 220C.
-8. It shouldn't need any PID tune adjustments if using Peopoly Lancer Long, but if using something else you can change the PID parameters by typing (for example):
-
-Pxxx.xxx - Set PID Proportional constant. Ex: P2.25
-
-Ixxx.xxx - Set PID Integral constant. Ex: I0.25
-
-Dxxx.xxx - Set PID Derivative constant. Ex: D1.525
-10. Go shoot plastic!
+8. It shouldn't need any PID tune adjustments if using Peopoly Lancer Long, but if using something else you can change the PID parameters by typing (for example): [Pxxx.xxx - Set PID Proportional constant. Ex: P2.25], [Ixxx.xxx - Set PID Integral constant. Ex: I0.25], [Dxxx.xxx - Set PID Derivative constant. Ex: D1.525]
+9. Go shoot plastic!
 
